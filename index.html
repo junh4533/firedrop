@@ -12,37 +12,46 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="aos.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-between">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top justify-content-between">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="#">
-            <img src="images/logo_white.png" alt="logo" style="width:160px;">
+            <img src="images/logo_white.png" alt="logo">
         </a>
 
-        <!-- Links -->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 1</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 3</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 1</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 3</a>
-            </li>
-        </ul>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#drop">Latest Drops</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#brands">Brands</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#merchandise">Merchandise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#raffle">Raffle</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            </ul>
+
+        </div>
     </nav>
 
     <section id="hero" class="section">
@@ -54,16 +63,141 @@
         </div>
     </section>
 
-    <section id="drop" class="section">
-        <h1>Drop</h1>
+    <section id="drop" class="section center">
+        <br>
+        <h1>Latest Drops</h1> <br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-4 px-3 py-3" data-aos="slide-up">
+                    <div class="card">
+                        <img class="card-img-top" src="images/sneakers/4d.jpg" alt="4d">
+                        <div class="card-body">
+                            <h4 class="card-title">Adidas Y-3 Runner 4d</h4>
+                            <p class="card-text">$1,950</p>
+                            <a href="#" class="btn btn-success">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 px-3 py-3" data-aos="slide-up">
+                    <div class="card">
+                        <img class="card-img-top" src="images/sneakers/offwhite.jpg" alt="off white">
+                        <div class="card-body">
+                            <h4 class="card-title">Air Force 1 Low Off-White</h4>
+                            <p class="card-text">$3,500</p>
+                            <a href="#" class="btn btn-success">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 px-3 py-3" data-aos="slide-up">
+                    <div class="card">
+                        <img class="card-img-top" src="images/sneakers/sb.jpg" alt="SB Dunk">
+                        <div class="card-body">
+                            <h4 class="card-title">Nike Dunk SB Low Paris</h4>
+                            <p class="card-text">$25,000</p>
+                            <a href="#" class="btn btn-success">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 px-3 py-3" data-aos="slide-up">
+                    <div class="card">
+                        <img class="card-img-top" src="images/sneakers/icecream.jpg" alt="Ice Cream">
+                        <div class="card-body">
+                            <h4 class="card-title">Ice Cream Diamond and Dollar</h4>
+                            <p class="card-text">$1,800</p>
+                            <a href="#" class="btn btn-success">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 px-3 py-3" data-aos="slide-up">
+                    <div class="card">
+                        <img class="card-img-top" src="images/sneakers/foams.jpg" alt="foamposite">
+                        <div class="card-body">
+                            <h4 class="card-title">Air Foamposite One Quai 54</h4>
+                            <p class="card-text">$3,000</p>
+                            <a href="#" class="btn btn-success">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 px-3 py-3" data-aos="slide-up">
+                    <div class="card">
+                        <img class="card-img-top" src="images/sneakers/vaporfly.jpg" alt="vaporfly">
+                        <div class="card-body">
+                            <h4 class="card-title">Nike Zoom Vaporfly Elite Black</h4>
+                            <p class="card-text">$1,425</p>
+                            <a href="#" class="btn btn-success">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
 
     <section id="brands" class="section">
         <h1>Brands</h1>
     </section>
 
-    <section id="merchandise" class="section">
-        <h1>Merch</h1>
+    <section id="merchandise" class="section center">
+
+        <div class="container-fluid">
+            <br>
+            <h1>Merchandise</h1><br>
+            <div class="row">
+                <div class="col-12 col-md-6 px-3 py-3" data-aos="slide-up">
+                    <div class="circle_image_container">
+                        <div id="cap_carousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#cap_carousel" data-slide-to="0" class="active black"></li>
+                                <li data-target="#cap_carousel" data-slide-to="1" class="white"></li>
+                            </ul>
+
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/merchandise/black_cap.png" alt="black cap">
+                                    <p>$19.99</p>
+                                    <a href="#" class="btn btn-success">Buy Now</a>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/merchandise/white_cap.png" alt="white cap">
+                                    <p>$19.99</p>
+                                    <a href="#" class="btn btn-success">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 px-3 py-3" data-aos="slide-up">
+                    <div class="circle_image_container">
+                        <div id="tshirt_carousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#tshirt_carousel" data-slide-to="0" class="active black"></li>
+                                <li data-target="#tshirt_carousel" data-slide-to="1" class="white"></li>
+                            </ul>
+
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/merchandise/black_tshirt.png" alt="black tshirt">
+                                    <p>$29.99</p>
+                                    <a href="#" class="btn btn-success">Buy Now</a>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/merchandise/white_tshirt.png" alt="white tshirt">
+                                    <p>$29.99</p>
+                                    <a href="#" class="btn btn-success">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <section id="raffle" class="section">
@@ -85,6 +219,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="aos.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
