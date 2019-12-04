@@ -98,8 +98,8 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 80vmin; 
-    height: 80vmin;
+    width: 70vmin; 
+    height: 70vmin;
     border-radius: 50%;
     background:#F15A26;
     margin:auto;
@@ -113,8 +113,28 @@ body{
     }
 }
 
+@media only screen and (max-width:768px) {
+    .circle_image_container {
+        width: 90vmin; 
+        height: 90vmin;
+    }
+}
+
+.carousel{
+    height: 90%;
+}
+
+.carousel-inner,.carousel-item {
+    height: 100%;
+}
+
+.caption {
+    position: relative;
+    top: 8%;
+}
+
 .carousel-indicators {
-    margin-bottom: 10%;
+    margin-bottom: 25%;
 }
 
 .carousel-indicators li{
